@@ -248,3 +248,9 @@ header h1:hover{
     text-shadow: 1px 1px 3px black;
     cursor: pointer;
 }
+
+@media(max-width: 450px){
+    .main_container{
+        flex-wrap: wrap;
+    }
+}
