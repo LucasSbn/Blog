@@ -190,7 +190,9 @@ header h1:hover{
 }
 
 .defaut_container_navbar .categories_container ul{
-    display: block;    
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .defaut_container_navbar .categories_container ul li{
@@ -198,5 +200,51 @@ header h1:hover{
 }
 
 .defaut_container_navbar .categories_container h2{
-    margin-left: 20px;
+    margin: 25px 0 30px 20px;
+}
+
+.defaut_container_navbar .categories_container ul li{
+    margin: 0 0 20px 20px;
+    transition: 0.5s;
+}
+
+.defaut_container_navbar .categories_container ul li:hover{
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    cursor: pointer;
+}
+
+#cachoeiras{
+    margin-bottom: 30px;
+}
+
+.tag-container {
+    width: 82%;
+
+    border-radius: 3px;
+    border: 1px solid gray;
+    margin-left: 28px;
+}
+
+.tag-container .defaut_container_navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag-container .defaut_container_navbar li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(205, 205, 205);
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    transition: 0.5s;
+}
+
+.tag-container .defaut_container_navbar li:hover{
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    cursor: pointer;
 }
